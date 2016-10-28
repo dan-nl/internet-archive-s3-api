@@ -1,0 +1,62 @@
+{
+  "ListBucketResult": {
+    "Name": "test-api",
+    "Contents": [
+      {
+        "Key": "test-api_archive.torrent",
+        "LastModified": "2016-10-25T19:58:18.000Z",
+        "ETag": "2016-10-25T19:58:18.000Z",
+        "Size": "1618",
+        "StorageClass": "STANDARD",
+        "Owner": {
+          "ID": "OpaqueIDStringGoesHere",
+          "DisplayName": "Readable ID Goes Here"
+        }
+      },
+      {
+        "Key": "test-api_files.xml",
+        "LastModified": "2016-10-25T19:58:18.000Z",
+        "ETag": "2016-10-25T19:58:18.000Z",
+        "Size": "1390",
+        "StorageClass": "STANDARD",
+        "Owner": {
+          "ID": "OpaqueIDStringGoesHere",
+          "DisplayName": "Readable ID Goes Here"
+        }
+      },
+      {
+        "Key": "test-api_meta.sqlite",
+        "LastModified": "2016-10-25T15:48:42.000Z",
+        "ETag": "2016-10-25T15:48:42.000Z",
+        "Size": "3072",
+        "StorageClass": "STANDARD",
+        "Owner": {
+          "ID": "OpaqueIDStringGoesHere",
+          "DisplayName": "Readable ID Goes Here"
+        }
+      },
+      {
+        "Key": "test-api_meta.xml",
+        "LastModified": "2016-10-25T19:58:17.000Z",
+        "ETag": "2016-10-25T19:58:17.000Z",
+        "Size": "433",
+        "StorageClass": "STANDARD",
+        "Owner": {
+          "ID": "OpaqueIDStringGoesHere",
+          "DisplayName": "Readable ID Goes Here"
+        }
+      },
+      {
+        "Key": "test-api_metadata test.json",
+        "LastModified": "2016-10-25T17:59:03.000Z",
+        "ETag": "2016-10-25T17:59:03.000Z",
+        "Size": "32",
+        "StorageClass": "STANDARD",
+        "Owner": {
+          "ID": "OpaqueIDStringGoesHere",
+          "DisplayName": "Readable ID Goes Here"
+        }
+      }
+    ]
+  }
+}

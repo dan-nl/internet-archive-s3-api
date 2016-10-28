@@ -1,0 +1,44 @@
+{
+  "name": "internet-archive-s3-api",
+  "version": "0.0.0",
+  "description": "internet archive s3 api helper methods",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "tap test/unit/helpers/*.test.js test/unit/helpers/ia/*.test.js test/unit/helpers/s3/*.test.js --reporter spec",
+    "test:integration": "tap test/integration/*.test.js --reporter spec",
+    "cover:browser": "npm test -- --coverage-report=lcov",
+    "cover:cli": "npm test -- --cov",
+    "cover:travis": "npm test -- --coverage-report=lcov --no-browser",
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "eslint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dan-nl/internet-archive-s3-api.git"
+  },
+  "keywords": [
+    "internet",
+    "archive",
+    "s3",
+    "api"
+  ],
+  "author": "dan entous",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dan-nl/internet-archive-s3-api/issues"
+  },
+  "homepage": "https://github.com/dan-nl/internet-archive-s3-api#readme",
+  "devDependencies": {
+    "coveralls": "2.11.15",
+    "eslint": "3.10.2",
+    "eslint-config-dan-nl": "git://github.com/dan-nl/eslint-config-dan-nl.git",
+    "sinon": "1.17.6",
+    "tap": "8.0.1",
+    "xml2json": "0.10.0"
+  },
+  "dependencies": {
+    "aws4": "1.5.0",
+    "generic-request-options": "1.2.1",
+    "request-as-bluebird": "2.0.2"
+  }
+}

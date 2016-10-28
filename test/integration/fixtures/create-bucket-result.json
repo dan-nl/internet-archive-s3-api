@@ -1,0 +1,8 @@
+{
+  "Error": {
+    "Code": "BucketAlreadyExists",
+    "Message": "The requested bucket name is not available. The bucket namespace is shared by all users of the system. Please select a different name and try again.",
+    "Resource": {},
+    "RequestId": "1a1ab123-1a1a-1a01-a12a-a1a1a123ab12"
+  }
+}
